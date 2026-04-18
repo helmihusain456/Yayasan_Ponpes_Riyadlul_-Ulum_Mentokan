@@ -4,70 +4,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPDB Premium</title>
+    <title>Yayasan Pondok Pesantren Riyadlul 'Ulum Mentokan</title>
+    <meta name="description" content="Website resmi Yayasan Pondok Pesantren Riyadlul 'Ulum Mentokan untuk informasi profil pondok, program unggulan, dan pendaftaran santri baru.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="page-shell">
+        <header class="site-header" id="top">
+            <nav class="navbar" id="navbar">
+                <a class="brand" href="#top" aria-label="Beranda Riyadlul 'Ulum Mentokan">
+                    <span class="brand-badge">RU</span>
+                    <span class="brand-copy">
+                        <strong>Riyadlul 'Ulum Mentokan</strong>
+                        <small>Yayasan Pondok Pesantren</small>
+                    </span>
+                </a>
 
-    <!-- NAVBAR -->
-    <nav id="navbar">
-        <div class="logo">PPDB</div>
-        <ul>
-            <li><a href="#visi">Visi</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#daftar">Daftar</a></li>
-        </ul>
-    </nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navLinks">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
-    <!-- HERO -->
-    <header class="hero">
-        <div class="hero-text">
-            <h1>PPDB 2025/2026</h1>
-            <p>Ponpes Riyadlul 'Ulum Mentokan</p>
-            <button onclick="scrollToSection('daftar')">Daftar Sekarang</button>
-        </div>
-    </header>
+                <div class="nav-links" id="navLinks">
+                    <a href="#tentang">Tentang</a>
+                    <a href="#program">Program</a>
+                    <a href="#jenjang">Jenjang</a>
+                    <a href="#pendaftaran">Pendaftaran</a>
+                    <a href="#kontak" class="button button-nav">Kontak</a>
+                </div>
+            </nav>
 
-    <!-- VISI MISI -->
-    <section id="visi" class="section fade">
-        <h2>Visi & Misi</h2>
-        <p>Generasi berakhlakul karimah, cerdas, dan unggul.</p>
-    </section>
+            <section class="hero">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Bismillahirrahmanirrahim</p>
+                    <h1>Website pondok pesantren yang hangat, informatif, dan mudah diakses wali santri.</h1>
+                    <p class="hero-text">
+                        Yayasan Pondok Pesantren Riyadlul 'Ulum Mentokan hadir sebagai ruang tumbuh bagi generasi yang berakhlak, mencintai ilmu, terbiasa beribadah, dan siap hidup bermasyarakat.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#pendaftaran">Daftar Santri Baru</a>
+                        <a class="button button-secondary" href="#tentang">Lihat Profil Pondok</a>
+                    </div>
+                    <ul class="hero-points">
+                        <li>Pembinaan adab, ibadah, dan ilmu dalam satu lingkungan pendidikan.</li>
+                        <li>Jenjang formal dan nonformal tersedia dalam naungan yayasan.</li>
+                        <li>Komunikasi pendaftaran langsung terhubung ke admin WhatsApp.</li>
+                    </ul>
+                </div>
 
-    <!-- PROGRAM -->
-    <section id="program" class="section dark fade">
-        <h2>Program Unggulan</h2>
-        <div class="grid">
-            <div class="card">Kitab Kuning</div>
-            <div class="card">Hadroh</div>
-            <div class="card">Tahfiz</div>
-            <div class="card">English Club</div>
-        </div>
-    </section>
+                <div class="hero-visual reveal">
+                    <article class="hero-panel">
+                        <p class="arabic">Thalabul 'ilmi faridhatun 'ala kulli muslim</p>
+                        <h2>Membina Santri dengan Ilmu dan Akhlak</h2>
+                        <p>
+                            Lingkungan belajar dirancang untuk menanamkan kedisiplinan, kebersamaan, semangat ibadah, dan kecintaan pada Al-Qur'an serta ilmu pengetahuan.
+                        </p>
+                        <div class="hero-grid">
+                            <div>
+                                <strong>Visi</strong>
+                                <span>Generasi berakhlakul karimah, cerdas, peduli sosial, terampil, dan unggul dalam berbahasa.</span>
+                            </div>
+                            <div>
+                                <strong>Fokus</strong>
+                                <span>Pendidikan agama, akademik, pembiasaan bahasa, dan keterampilan hidup.</span>
+                            </div>
+                            <div>
+                                <strong>Lokasi</strong>
+                                <span>Dusun Mentokan, Desa Darek, Praya Barat Daya.</span>
+                            </div>
+                            <div>
+                                <strong>Kontak</strong>
+                                <span>Admin pondok siap membantu proses pendaftaran.</span>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="floating-card floating-card-top">
+                        <strong>Program Favorit</strong>
+                        <span>Kitab Kuning, Tahfiz, Tilawah, Hadroh, Pramuka, dan English Club.</span>
+                    </div>
+                    <div class="floating-card floating-card-bottom">
+                        <strong>Penerimaan Santri</strong>
+                        <span>Pendaftaran dibuka untuk calon santri dan siswa baru tahun ajaran 2026 - 2027.</span>
+                    </div>
+                </div>
+            </section>
+        </header>
 
-    <!-- FORM -->
-    <section id="daftar" class="section fade">
-        <h2>Form Pendaftaran</h2>
-        <form id="form">
-            <input type="text" placeholder="Nama Lengkap" required>
-            <input type="text" placeholder="Alamat" required>
-            <input type="number" placeholder="No HP" required>
-            <select required>
-      <option value="">Pilih Jenjang</option>
-      <option>SMP</option>
-      <option>MA</option>
-    </select>
-            <button type="submit">Kirim</button>
-        </form>
-    </section>
+        <main>
+            <section class="overview-section reveal" id="tentang">
+                <div class="section-heading">
+                    <p class="section-tag">Tentang Pondok</p>
+                    <h2>Profil singkat yayasan dalam tampilan yang lebih modern dan meyakinkan.</h2>
+                </div>
 
-    <!-- WHATSAPP -->
-    <a href="https://wa.me/6287832078969" class="wa">💬</a>
+                <div class="overview-layout">
+                    <article class="intro-card">
+                        <p>
+                            Website ini dirancang sebagai wajah digital pondok pesantren agar informasi penting lebih mudah ditemukan, baik oleh wali santri, calon santri, maupun masyarakat sekitar.
+                        </p>
+                        <p>
+                            Nuansa desain dibuat tenang, religius, dan profesional agar identitas pondok terasa kuat sejak pertama kali halaman dibuka.
+                        </p>
+                    </article>
 
-    <footer>
-        <p>© 2026 PPDB Riyadlul 'Ulum</p>
-    </footer>
+                    <div class="stats-grid">
+                        <article class="stat-card">
+                            <strong>6</strong>
+                            <span>Jenjang dan unit pendidikan</span>
+                        </article>
+                        <article class="stat-card">
+                            <strong>8</strong>
+                            <span>Program pembinaan unggulan</span>
+                        </article>
+                        <article class="stat-card">
+                            <strong>1</strong>
+                            <span>Alur komunikasi admin yang praktis</span>
+                        </article>
+                        <article class="stat-card">
+                            <strong>2026</strong>
+                            <span>Siap untuk informasi PPDB tahun ajaran baru</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="identity-section reveal" id="visi">
+                <div class="identity-card identity-main">
+                    <p class="section-tag">Visi</p>
+                    <h2>Melahirkan generasi yang berakhlakul karimah, cerdas, peduli sosial, terampil, dan unggul dalam berbahasa.</h2>
+                </div>
+
+                <div class="identity-list">
+                    <article class="identity-card">
+                        <h3>Akhlak Mulia</h3>
+                        <p>Menumbuhkan kepribadian santri yang santun, taat, dan menghormati guru, orang tua, serta sesama.</p>
+                    </article>
+                    <article class="identity-card">
+                        <h3>Pembelajaran Efektif</h3>
+                        <p>Mendorong proses belajar yang menyenangkan, terarah, dan sesuai kebutuhan perkembangan peserta didik.</p>
+                    </article>
+                    <article class="identity-card">
+                        <h3>Bahasa dan Sosial</h3>
+                        <p>Membiasakan santri dengan bahasa Arab dan Inggris sekaligus menanamkan kepedulian terhadap masyarakat.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="program-section reveal" id="program">
+                <div class="section-heading">
+                    <p class="section-tag">Program Unggulan</p>
+                    <h2>Pembinaan yang menyeimbangkan ilmu agama, keterampilan, dan karakter.</h2>
+                </div>
+
+                <div class="program-grid">
+                    <article class="program-card"><span>01</span><h3>Kitab Kuning</h3></article>
+                    <article class="program-card"><span>02</span><h3>Tahfiz Al-Qur'an</h3></article>
+                    <article class="program-card"><span>03</span><h3>Tilawah</h3></article>
+                    <article class="program-card"><span>04</span><h3>Hadroh</h3></article>
+                    <article class="program-card"><span>05</span><h3>Pramuka</h3></article>
+                    <article class="program-card"><span>06</span><h3>English Club</h3></article>
+                    <article class="program-card"><span>07</span><h3>Pembiasaan Bahasa</h3></article>
+                    <article class="program-card"><span>08</span><h3>Pembinaan Akhlak</h3></article>
+                </div>
+            </section>
+
+            <section class="education-section reveal" id="jenjang">
+                <div class="section-heading">
+                    <p class="section-tag">Jenjang Pendidikan</p>
+                    <h2>Pendidikan formal dan nonformal dalam satu lingkungan yayasan.</h2>
+                </div>
+
+                <div class="education-grid">
+                    <article class="education-card">
+                        <p class="mini-tag">Formal</p>
+                        <ul>
+                            <li>TK Tunas Bangsa Mentokan</li>
+                            <li>RA Al-Ma'arif Riyadlul 'Ulum Mentokan</li>
+                            <li>SMP Islam Riyadlul 'Ulum Mentokan</li>
+                            <li>MA Plus Riyadlul 'Ulum Mentokan</li>
+                        </ul>
+                    </article>
+                    <article class="education-card accent">
+                        <p class="mini-tag">Nonformal</p>
+                        <ul>
+                            <li>Diniya Takmiliyah Riyadlul 'Ulum Mentokan</li>
+                            <li>TPQ Riyadlul 'Ulum Mentokan</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="admission-section reveal" id="pendaftaran">
+                <div class="section-heading">
+                    <p class="section-tag">Pendaftaran</p>
+                    <h2>Informasi syarat dan form minat daftar yang langsung mengarah ke admin.</h2>
+                </div>
+
+                <div class="admission-layout">
+                    <article class="admission-card">
+                        <p class="mini-tag">Syarat Utama</p>
+                        <ul class="check-list">
+                            <li>Fotokopi ijazah atau surat keterangan lulus.</li>
+                            <li>Fotokopi kartu keluarga.</li>
+                            <li>Pas foto hitam putih ukuran 3x4 sebanyak 4 lembar.</li>
+                            <li>Fotokopi KTP orang tua atau wali.</li>
+                            <li>Fotokopi piagam penghargaan jika ada.</li>
+                            <li>Mengisi formulir pendaftaran.</li>
+                        </ul>
+                    </article>
+
+                    <article class="timeline-card">
+                        <p class="mini-tag">Jadwal dan Lokasi</p>
+                        <h3>Tahun Ajaran 2026 - 2027</h3>
+                        <p>Silakan konfirmasi gelombang pendaftaran, biaya, dan jadwal datang langsung melalui admin pondok.</p>
+                        <div class="address-box">
+                            <strong>Alamat Pondok</strong>
+                            <p>Dusun Mentokan, Desa Darek, Kecamatan Praya Barat Daya, Kabupaten Lombok Tengah, NTB.</p>
+                        </div>
+                        <div class="address-box">
+                            <strong>Kontak Admin</strong>
+                            <p>0878-3207-8969</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="register-section">
+                    <div class="register-copy">
+                        <p class="section-tag">Form Minat Daftar</p>
+                        <h2>Isi data singkat, lalu lanjutkan percakapan lewat WhatsApp.</h2>
+                        <p>
+                            Form ini memudahkan admin memahami kebutuhan calon santri sebelum percakapan dimulai. Setelah dikirim, halaman akan membuka WhatsApp dengan pesan otomatis.
+                        </p>
+                    </div>
+
+                    <form class="register-form" id="form">
+                        <label>
+                            Nama lengkap
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                        </label>
+                        <label>
+                            Asal daerah
+                            <input type="text" id="alamat" name="alamat" placeholder="Contoh: Praya Barat Daya" required>
+                        </label>
+                        <label>
+                            Nama orang tua / wali
+                            <input type="text" id="wali" name="wali" placeholder="Masukkan nama wali" required>
+                        </label>
+                        <label>
+                            Nomor WhatsApp
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="08xxxxxxxxxx" required>
+                        </label>
+                        <label>
+                            Pilihan jenjang
+                            <select id="jenjangPilihan" name="jenjang" required>
+                                <option value="">Pilih jenjang</option>
+                                <option value="TK Tunas Bangsa Mentokan">TK Tunas Bangsa Mentokan</option>
+                                <option value="RA Al-Ma'arif Riyadlul 'Ulum Mentokan">RA Al-Ma'arif Riyadlul 'Ulum Mentokan</option>
+                                <option value="SMP Islam Riyadlul 'Ulum Mentokan">SMP Islam Riyadlul 'Ulum Mentokan</option>
+                                <option value="MA Plus Riyadlul 'Ulum Mentokan">MA Plus Riyadlul 'Ulum Mentokan</option>
+                                <option value="Diniya Takmiliyah Riyadlul 'Ulum Mentokan">Diniya Takmiliyah Riyadlul 'Ulum Mentokan</option>
+                                <option value="TPQ Riyadlul 'Ulum Mentokan">TPQ Riyadlul 'Ulum Mentokan</option>
+                            </select>
+                        </label>
+                        <label>
+                            Catatan singkat
+                            <textarea id="catatan" name="catatan" rows="4" placeholder="Contoh: ingin info biaya atau jadwal survei"></textarea>
+                        </label>
+                        <button type="submit" class="button button-primary button-submit">Kirim ke WhatsApp Admin</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer reveal" id="kontak">
+            <div>
+                <p class="section-tag">Kontak Pondok</p>
+                <h2>Yayasan Pondok Pesantren Riyadlul 'Ulum Mentokan</h2>
+                <p>Dusun Mentokan, Desa Darek, Kecamatan Praya Barat Daya, Kabupaten Lombok Tengah, NTB.</p>
+            </div>
+            <div class="footer-actions">
+                <a class="button button-primary" href="https://wa.me/6287832078969?text=Assalamu%27alaikum%2C%20saya%20ingin%20bertanya%20tentang%20pondok%20pesantren%20Riyadlul%20%27Ulum%20Mentokan." target="_blank" rel="noreferrer">Chat WhatsApp</a>
+                <a class="button button-secondary button-footer" href="#top">Kembali ke Atas</a>
+            </div>
+        </footer>
+
+        <a class="floating-wa" href="https://wa.me/6287832078969?text=Assalamu%27alaikum%2C%20saya%20ingin%20mendaftar%20di%20Pondok%20Pesantren%20Riyadlul%20%27Ulum%20Mentokan." target="_blank" rel="noreferrer" aria-label="Hubungi admin melalui WhatsApp">
+            WA
+        </a>
+    </div>
 
     <script src="script.js"></script>
 </body>
